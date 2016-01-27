@@ -1,0 +1,26 @@
+{
+  "name": "frameworks",
+  "version": "1.0.0",
+  "description": "frameworks lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejaweb/frameworks.git"
+  },
+  "keywords": [
+    "frameworks"
+  ],
+  "author": "@ejaweb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ejaweb/frameworks/issues"
+  },
+  "homepage": "https://github.com/ejaweb/frameworks#readme",
+  "devDependencies": {
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1"
+  }
+}
