@@ -2,10 +2,8 @@ var gulp   = require('gulp');
 var sass   = require('gulp-sass');
 var rename = require('gulp-rename');
 
-gulp.task('default', function() {});
-
-var distDir = './dist';
-var sassDir = './scss/**/*.scss';
+var distDir = './app/dist';
+var sassDir = './app/scss/**/*.scss';
 
 gulp.task('sass', function() {
   gulp.src(sassDir)
@@ -17,3 +15,5 @@ gulp.task('sass', function() {
 gulp.task('sass:watch', function() {
   gulp.watch(sassDir, ['sass']);
 });
+
+gulp.task('default', ['sass']);
