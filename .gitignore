@@ -1,2 +1,7 @@
-app/dist/
+*~
 *.DS_Store
+*.jshintignore
+*.gitignore
+bin/
+build/
+dist/

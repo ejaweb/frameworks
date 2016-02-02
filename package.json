@@ -2,10 +2,6 @@
   "name": "frameworks",
   "version": "1.0.0",
   "description": "frameworks lib",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ejaweb/frameworks.git"
@@ -22,7 +18,12 @@
   "devDependencies": {
     "angular": "^1.4.9",
     "bootstrap": "^3.3.6",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.1.1"
+    "gulp-sass": "^2.1.1",
+    "gulp-uglify": "^1.5.1",
+    "jquery": "^2.2.0"
   }
 }
